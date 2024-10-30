@@ -1,0 +1,562 @@
+# Copyright (C) 2017 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: One Click Demo Import 2.2.1\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2017-08-12 18:49+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: brand-demo-import.php:69
+#, php-format
+msgid ""
+"The %2$sBrand Demo Import%3$s plugin requires %2$sPHP 5.4+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.4%4$s Your current version of PHP: %2$s"
+"%1$s%3$s"
+msgstr ""
+
+#: brand-demo-import.php:79
+#, php-format
+msgid ""
+"You have to install and activate %1$sBrand theme%2$s to use Brand Demo Import. "
+"%3$s %4$sInstall Brand theme%5$s"
+msgstr ""
+
+#: brand-demo-import.php:134 brand-demo-import.php:145
+msgid ""
+"You need to install Contact Form 7 and Brand Premium plugins before install "
+"this demo."
+msgstr ""
+
+#: inc/BrandDemoImport.php:143 inc/Helpers.php:272 views/plugin-page.php:14
+msgid "Brand Demo Import"
+msgstr ""
+
+#: inc/BrandDemoImport.php:144 inc/Helpers.php:273 views/plugin-page.php:91
+#: views/plugin-page.php:103
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/BrandDemoImport.php:195
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: inc/BrandDemoImport.php:196
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/BrandDemoImport.php:197
+msgid "Cancel"
+msgstr ""
+
+#: inc/BrandDemoImport.php:198
+msgid "Yes, import!"
+msgstr ""
+
+#: inc/BrandDemoImport.php:199
+msgid "Selected demo import:"
+msgstr ""
+
+#: inc/BrandDemoImport.php:239
+msgid "Manually uploaded files"
+msgstr ""
+
+#: inc/BrandDemoImport.php:253
+msgid "No import files specified!"
+msgstr ""
+
+#: inc/BrandDemoImport.php:382
+msgid ""
+"Just installed Brand Theme  and it's awesome! Thanks @MaxsdesignBrand! https://"
+"www.wp-brandtheme.com/"
+msgstr ""
+
+#: inc/BrandDemoImport.php:385
+#, php-format
+msgid ""
+"%1$sThis plugin is based on the awesome One Click Demo Import plugin created "
+"by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%6$s"
+msgstr ""
+
+#: inc/BrandDemoImport.php:396
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please check "
+"your page and make sure that everything has imported correctly. If it did, you "
+"can deactivate the %3$sBrand Demo Import%4$s plugin, because it has done its "
+"job.%5$s"
+msgstr ""
+
+#: inc/BrandDemoImport.php:407
+#, php-format
+msgid "%1$sThe demo import has finished, but there were some import errors.%2$s"
+msgstr ""
+
+#: inc/CustomizerImporter.php:67
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/CustomizerImporter.php:87
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make sure "
+"to use the correct customizer import file."
+msgstr ""
+
+#: inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: inc/Helpers.php:76
+#, php-format
+msgid "\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr ""
+
+#: inc/Helpers.php:162 inc/Helpers.php:204
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file to: "
+"%s%s."
+msgstr ""
+
+#: inc/Helpers.php:238
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: inc/Helpers.php:261
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory of "
+"your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/Helpers.php:285
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your server "
+"(could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/Helpers.php:293
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/Helpers.php:310
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: inc/Helpers.php:343
+msgid "Please upload XML file for content import."
+msgstr ""
+
+#: inc/Helpers.php:382
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: inc/Helpers.php:386
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+
+#: inc/Helpers.php:390 inc/Helpers.php:391 inc/Helpers.php:392
+msgid "not defined!"
+msgstr ""
+
+#: inc/Importer.php:81
+msgid "Can not retrieve class-wp-importer.php"
+msgstr ""
+
+#: inc/Importer.php:91
+msgid "Can not retrieve wordpress-importer.php"
+msgstr ""
+
+#: inc/Importer.php:140
+msgid "New AJAX call!"
+msgstr ""
+
+#: inc/WidgetImporter.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: inc/WidgetImporter.php:102
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/WidgetImporter.php:141
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/WidgetImporter.php:162
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/WidgetImporter.php:195
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/WidgetImporter.php:253
+msgid "Imported"
+msgstr ""
+
+#: inc/WidgetImporter.php:257
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/WidgetImporter.php:263
+msgid "No Title"
+msgstr ""
+
+#: inc/WidgetImporter.php:310
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/parsers.php:42 inc/parsers.php:72 inc/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/parsers.php:84 inc/parsers.php:89 inc/parsers.php:306 inc/parsers.php:495
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/wordpress-importer.php:132 inc/wordpress-importer.php:141
+#: inc/wordpress-importer.php:192 inc/wordpress-importer.php:196
+#: inc/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: inc/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: inc/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that this "
+"was caused by a permissions problem."
+msgstr ""
+
+#: inc/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want "
+"to reassign the author of the imported item to an existing user of this site. "
+"For example, you may want to import all the entries as <code>admin</code>s "
+"entries."
+msgstr ""
+
+#: inc/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: inc/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: inc/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: inc/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:516 inc/wordpress-importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/wordpress-importer.php:869
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wordpress-importer.php:876
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:939
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wordpress-importer.php:952
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wordpress-importer.php:996
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wordpress-importer.php:1002
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1009
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/wordpress-importer.php:1014
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wordpress-importer.php:1020
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1119
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wordpress-importer.php:1126
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wordpress-importer.php:1141
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: inc/wordpress-importer.php:1142
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/wordpress-importer.php:1216
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: views/plugin-page.php:21
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: views/plugin-page.php:34
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: views/plugin-page.php:39
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the easiest "
+"way to setup your theme."
+msgstr ""
+
+#: views/plugin-page.php:40
+msgid ""
+"It will allow you to quickly edit everything instead of creating content from "
+"scratch."
+msgstr ""
+
+#: views/plugin-page.php:41
+msgid ""
+"We recommend installing sample data on a fresh installation to prevent "
+"conflicts with your current content."
+msgstr ""
+
+#: views/plugin-page.php:46
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: views/plugin-page.php:49
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: views/plugin-page.php:50
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: views/plugin-page.php:51
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple of "
+"minutes."
+msgstr ""
+
+#: views/plugin-page.php:68
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: views/plugin-page.php:72
+msgid "Manual demo files upload"
+msgstr ""
+
+#: views/plugin-page.php:75
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: views/plugin-page.php:80
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: views/plugin-page.php:80 views/plugin-page.php:85
+msgid "(*optional)"
+msgstr ""
+
+#: views/plugin-page.php:85
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: views/plugin-page.php:118
+msgid "All"
+msgstr ""
+
+#: views/plugin-page.php:125
+msgid "Search demos..."
+msgstr ""
+
+#: views/plugin-page.php:146
+msgid "No preview image."
+msgstr ""
+
+#: views/plugin-page.php:152
+msgid "Import"
+msgstr ""
+
+#: views/plugin-page.php:164
+msgid "Importing, please wait!"
+msgstr ""
